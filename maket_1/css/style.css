@@ -1,0 +1,60 @@
+.heading {
+    margin: 43px 0 0 49px;
+    font-family: Roboto;
+    font-size: 50px;
+    line-height: 59px;
+    color: #E72424;
+}
+
+.font-family_OpenSans {
+    font-family: "Open Sans";
+}
+
+.size-20 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 36px 0 0 50px;
+}
+
+.size-15 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 10px 0 0 49px;
+}
+
+.size-14 {
+    font-size: 14px;
+    line-height: 19px;
+    margin: 12px 0 0 50px;
+}
+
+.size-12 {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 10px 0 0 49px;
+}
+
+.font-family_Raleway {
+    font-family: Raleway;
+}
+
+.size-36 {
+    font-size: 36px;
+    line-height: 42px;
+    margin: 24px 0 0 48px;
+}
+
+.size-30 {
+    font-size: 30px;
+    line-height: 35px;
+    margin: 10px 0 0 49px;
+}
+
+.size-16 {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 8px 0 9px 50px;
+}
