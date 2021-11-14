@@ -1,3 +1,437 @@
-body {
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
 
+@font-face {
+    font-family: "Montserrat-Medium_500";
+    src: url('../fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Nunito-Bold";
+    src: url('../fonts/Nunito-Bold.ttf');
+}
+
+@font-face {
+    font-family: "WorkSans-Regular";
+    src: url('../fonts/WorkSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: "WorkSans-Medium_500";
+    src: url('../fonts/WorkSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: "Poppins-Medium_500";
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: "Raleway-Medium_500";
+    src: url('../fonts/Raleway-Medium.ttf');
+}
+
+.wrap {
+    font-family: "Montserrat-Regular";
+}
+
+.info {
+    height: 100%;
+}
+
+.types-of-flowers {
+    max-height: 740px;
+    height: 100%;
+    display: flex;
+}
+
+.types-of-flowers__img {
+    width: 47.5%;
+    background: url(../image/add_bg.png) 56px 40px no-repeat, url(../image/Kembang_Flower_\ Mantap.jpg) 50%/cover no-repeat;
+}
+
+.types-of-flowers__info {
+    width: 52.5%;
+}
+
+.types-of-flowers__info__header {
+    width: 584px;
+    display: flex;
+    justify-content: end;
+    margin-top: 40px;
+}
+
+.types-of-flowers__info__header div {
+    display: flex;
+}
+
+.types-of-flowers__info__header__img {
+    cursor: pointer;
+}
+
+.types-of-flowers__info__header__img img:first-child {
+    margin-right: 40px;
+}
+
+.types-of-flowers__info__header__img img:last-child {
+    margin-right: 8px;
+}
+
+.types-of-flowers__info__header__a a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 111px;
+    height: 36px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #156963;
+    font-family: "Nunito-Bold";
+}
+
+.types-of-flowers__info__header__a a:hover {
+    background: #156963;
+    color: white;
+}
+
+.types-of-flowers__info__text {
+    margin: 110px 0 110px 76px;
+    max-width: 520px;
+}
+
+.types-of-flowers__info__text__title {
+    font-size: 68px;
+    line-height: 83px;
+    color: #156963;
+    font-family: "Montserrat-Medium_500";
+    margin-bottom: 24px;
+}
+
+.types-of-flowers__info__text__discription {
+    font-size: 18px;
+    line-height: 32px;
+    color: #2C1500;
+    opacity: 0.8;
+    padding-right: 26px;
+}
+
+.types-of-flowers__info__buttons div {
+    padding: 39px 48px;
+    height: 160px;
+    display: inline-block;
+}
+
+.types-of-flowers__info__buttons p {
+    display: inline-block;
+}
+
+.types-of-flowers__info__buttons .types-of-flowers__info__buttons__previous {
+    width: 266px;
+    margin-left: 90px;
+    padding-left: 0;
+}
+
+.types-of-flowers__info__buttons__direction {
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    font-family: "Montserrat-Medium_500";
+    margin-bottom: 12px;
+    opacity: 0.5;
+}
+
+.types-of-flowers__info__buttons__previous .types-of-flowers__info__buttons__direction::before {
+    content: "";
+    background: url(../image/arrow.png) no-repeat;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    vertical-align: top;
+}
+
+.types-of-flowers__info__buttons__name {
+    font-size: 32px;
+    line-height: 39px;
+    color: #156963;
+    font-family: "Montserrat-Medium_500";
+}
+
+.types-of-flowers__info__buttons__next {
+    width: 320px;
+}
+
+.types-of-flowers__info__buttons__next .types-of-flowers__info__buttons__direction::after {
+    content: "";
+    background: url(../image/arrow.png) no-repeat;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    transform: rotate(180deg);
+    margin-left: 8px;
+    vertical-align: top;
+}
+
+.types-of-flowers__info__buttons div:hover {
+    background: #156963;
+    color: #F2F2F2;
+}
+
+.types-of-flowers__info__buttons div:hover .types-of-flowers__info__buttons__name {
+    color: white;
+}
+
+.types-of-flowers__info__buttons div:hover .types-of-flowers__info__buttons__direction {
+    color: #F2F2F2;
+}
+
+.advantages {
+    max-width: 1168px;
+    display: flex;
+    justify-content: space-between;
+    margin: 147px auto 75px;
+}
+
+.advantages__item {
+    width: 268px;
+    height: 155px;
+    border: 1px solid #E0E0E0;
+    padding: 21px 16px;
+}
+
+.advantages__item__title {
+    margin-bottom: 16px;
+    width: 201px;
+}
+
+.advantages__item__title img {
+    margin-right: 16px;
+}
+
+.advantages__item__title p {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    color: #156963;
+    font-family: "Montserrat-Bold";
+}
+
+.advantages__item__description {
+    font-size: 10px;
+    line-height: 16px;
+    color: #2C1500;
+}
+
+.featured_plants {
+    max-width: 1168px;
+    margin: 0 auto;
+}
+
+.featured_plants__header {
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Montserrat-Medium_500";
+    color: #000000;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 24px;
+}
+
+.featured_plants__header__title {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.featured_plants__header select {
+    appearance: none;
+    background: url(../image/arrow_custom.png) no-repeat right/12px;
+    background-position-x: calc(100% - 12px);
+    width: 130px;
+    height: 31px;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 8px 0 8px 12px;
+    font-family: "Montserrat-Medium_500";
+    border: 1px solid #E0E0E0;
+}
+
+.featured_plants__catalog {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.featured_plants__catalog__item img {
+    width: 217px;
+    height: 217px;
+    margin-bottom: 16px;
+}
+
+.featured_plants__catalog__item p {
+    text-align: center;
+}
+
+.featured_plants__catalog__item__name {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.featured_plants__catalog__item__price {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Montserrat-Bold";
+}
+
+.help-of-plants {
+    display: flex;
+    margin: 0 auto 80px;
+    max-width: 1168px;
+}
+
+.help-of-plants__info {
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.help-of-plants__info__text {
+    max-width: 522px;
+}
+
+.help-of-plants__info__text__title {
+    font-size: 40px;
+    line-height: 56px;
+    color: #2C1500;
+    font-family: "Montserrat-Bold";
+    margin-bottom: 16px;
+}
+
+.help-of-plants__info__text__description {
+    font-size: 16px;
+    line-height: 28px;
+    color: #2C1500;
+}
+
+.help-of-plants__picture {
+    width: 44%;
+}
+
+.visit-shop {
+    max-width: 1168px;
+    margin: 0 auto 80px;
+    background: url(../image/bg.jpg) no-repeat right #F3F4F6;
+    background-position-x: calc(100% - 41px);
+    min-height: 360px;
+    display: flex;
+    align-items: center;
+}
+
+.visit-shop__info {
+    margin-left: 97px;
+}
+
+.visit-shop button {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FAFEFE;
+    font-family: "Nunito-Bold";
+    background: #156963;
+    width: 152px;
+    height: 40px;
+}
+
+.visit-shop__info__title {
+    font-size: 40px;
+    line-height: 56px;
+    color: #2C1500;
+    font-family: "Montserrat-Bold";
+    max-width: 585px;
+    margin-bottom: 32px;
+}
+
+.footer {
+    border-top: 1px solid rgba(21, 105, 99, 0.3);
+    min-height: 268px;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 946px;
+    margin: 60px auto 0;
+}
+
+.footer__info h2 {
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #156963;
+    font-family: "Poppins-Medium_500";
+    margin-bottom: 24px;
+}
+
+.footer__info__title, .footer__info__title a {
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    font-family: "WorkSans-Medium_500";
+    margin-bottom: 10px;
+}
+
+.footer__info__address {
+    max-width: 282px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4F4F4F;
+    font-family: "WorkSans-Regular";
+}
+
+.nav .footer__info__title {
+    margin-bottom: 20px;
+}
+
+.footer__info__item, .footer__info__item a {
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "WorkSans-Regular";
+    margin-bottom: 14px;
+    color: #000000;
+}
+
+.form .footer__info__title {
+    margin-bottom: 14px;
+}
+
+.form {
+    max-width: 234px;
+}
+
+.form form input:first-child {
+    width: 234px;
+    height: 32px;
+    border: 1px solid #F2F2F2;
+    border-radius: 2px;
+    margin-bottom: 14px;
+    padding-left: 13px;
+}
+
+.form form input:last-child {
+    width: 51px;
+    height: 22px;
+    background: #156963;
+    color: #FFFFFF;
+    font-size: 8px;
+    line-height: 14px;
+    font-family: "Raleway-Medium_500";
+    cursor: pointer;
 }
